@@ -1,0 +1,27 @@
+.upb-accordion-item {
+    cursor           : pointer;
+    background-color : #EDEDED;
+    border-bottom    : 1px solid #FFFFFF;
+    text-decoration  : none;
+    display          : block;
+    padding          : 10px;
+    color            : #222222;
+    outline          : none !important;
+    box-shadow       : none !important;
+    clear            : both;
+    }
+
+.upb-accordion-item.active {
+    background-color : #222222 !important;
+    color            : #FFFFFF !important;
+    }
+
+.upb-accordion-content {
+    display : none;
+    border  : 1px solid #EDEDED;
+    padding : 10px;
+    }
+
+.upb-accordion-content.active {
+    display : block;
+    }
